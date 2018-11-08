@@ -2,6 +2,7 @@
 Repositório para o projeto do Hackathon do USP Codelab 2018.2 para contribuir com a saúde financeira da universidade.
 
 ## To-do:
+- [X] Configurar GitHub 
 - [ ] Site
 - [ ] Algoritmo
 - [ ] Dados
