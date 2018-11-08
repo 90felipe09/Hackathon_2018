@@ -3,18 +3,8 @@ Repositório para o projeto do Hackathon do USP Codelab 2018.2 para contribuir c
 
 ## To-do:
 - [ ] Site
--  [ ] HTML
--  [ ] CSS
--  [ ] JS
 - [ ] Algoritmo
--  [ ] Montar Modelo
--  [ ] Treinar Modelo
--  [ ] Testar Modelo
--  [ ] Vincular Resultado no Site
 - [ ] Dados
--  [ ] Obter Dados da Transparência USP
--  [ ] Obter Dados da Arrecadação do Estado
--  [ ] Obter Dados Econômicos
 
 ## De quem puxar a orelha?
 <p> Esses são os colaboradores do projeto e suas respectivas funções: </p>
