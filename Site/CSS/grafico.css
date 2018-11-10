@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech);
+body {
+  background: #D8D8D8;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  font-family: 'Share Tech', sans-serif;
+  color: #444;
+}
+
+.panel {
+  background: #FFFFFF;
+  padding: 10px 15px;
+  border-bottom: 2px solid #B5B5B5;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+svg {
+  height: 400px;
+  width: 400px;
+}
+
+.graph-hd {
+  margin-bottom: 20px;
+}
+
+.graph-bd {
+  overflow: hidden;
+}
+
+.graph-bd-md {
+  float: left;
+}
