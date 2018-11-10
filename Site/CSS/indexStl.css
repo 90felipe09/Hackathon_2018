@@ -65,7 +65,7 @@ nav div.buscar
 
 section.decoy
 {
-  height: 80px;
+  height: 100px;
 }
 
 section.content
@@ -83,7 +83,8 @@ h1
   float: center;
   transition: 1s;
   text-decoration: none;
-  padding: 50px 20px;
+  padding: 20px 20px;
+  margin-top: 0px;
 }
 
 h2
