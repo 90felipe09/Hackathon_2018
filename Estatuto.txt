@@ -1,0 +1,14 @@
+Estatuto do Hacktahon
+
+Estamos fazendo um Site com HTML/CSS/JS.
+Ele terá 3 Features se possível implementar a Tempo em Fila:
+
+Prioridade: Data Visualization
+Próximo da fila: Estimador de ICMS para gestão orçamentária da USP
+Último da Fila: Blockchain para tornar os dados icorruptiveis para aumentar a confiabilidade do setor privado no investimento nas instituições da USP.
+
+Assino e Concordo:
+- Felipe Kenzo Shiraishi
+-
+-
+-
