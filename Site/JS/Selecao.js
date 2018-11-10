@@ -1,11 +1,11 @@
-function getChecked(nome) {
+function getCheckedInstituto() {
   $(document).ready(function() {
 
     $("button").click(function() {
 
       var checked = [];
 
-      $.each($("input[name='%s']:checked", % nome), function() {
+      $.each($("input[name='Instituto']:checked"), function() {
         favorite.push($(this).val());
       });
       alert("My favourite sports are: " + favorite.join(", "));
@@ -13,5 +13,4 @@ function getChecked(nome) {
   });
 
 }
-
-getChecked('sport');
+getChecked();
