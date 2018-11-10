@@ -13,4 +13,4 @@ function getCheckedInstituto() {
   });
 
 }
-getChecked();
+getCheckedInstituto();
