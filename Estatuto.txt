@@ -4,6 +4,7 @@ Estamos fazendo um Site com HTML/CSS/JS.
 Ele terá 3 Features se possível implementar a Tempo em Fila:
 
 Prioridade: Data Visualization
+Próximo da Fila: Denuncie! Um botão gerador de dossiê e instruções de direcionamentos para reivindicações em Ouvidorias ou Corregedorias do estado ou reitoria
 Próximo da fila: Estimador de ICMS para gestão orçamentária da USP
 Último da Fila: Blockchain para tornar os dados icorruptiveis para aumentar a confiabilidade do setor privado no investimento nas instituições da USP.
 
