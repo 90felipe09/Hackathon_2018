@@ -1,4 +1,62 @@
 <!DOCTYPE HTML>
 <html>
-  
+
+<head>
+  <meta charset="UTF-8">
+  <title>Graphs</title>
+  <link rel="stylesheet" href="CSS/graficos.css">
+</head>
+
+<body>
+  <section class="container">
+
+
+    <!-- START - CIRCLE GRAPH -->
+    <div>
+      <figure class="chart" id="circle"data-percent="75">
+        <svg>
+          <circle  class="inner"cx="1.5%" cy="52%" r="40%" transform="rotate(-90, 95, 95)"/>
+          <circle class="outer" cx="1.5%" cy="52%" r="40%" transform="rotate(-90, 95, 95)"/>
+        </svg>
+
+        <figcaption>
+          <h2>34%</h2>
+          <p>Refugiados<br> nas <br>Américas</p>
+        </figcaption>
+      </figure>
+
+      <figure class="chart" id="pizza"data-percent="pizza" >
+        <svg>
+          <defs>
+            <circle id="SVGID_1_" cx="1.5%" cy="52%" r="43%" stroke="#f0f" />
+          </defs>
+
+          <clipPath id="SVGID_2_">
+            <use xlink:href="#SVGID_1_" overflow="visible"/>
+          </clipPath>
+
+          <circle  class="inner"cx="1.5%" cy="52%" r="40%" transform="rotate(-90, 95, 95)"/>
+          <circle clip-path="url(#SVGID_2_)" class="outer pizza" cx="1.5%" cy="52%" r="40%" transform="rotate(-90, 95, 95)"/>
+        </svg>
+
+        <figcaption>
+          <h2>95%</h2>
+          <p>Refugiados na Europa e  nas Américas</p>
+        </figcaption>
+      </figure>
+    </div>
+    <!-- END - CIRCLE GRAPH -->
+
+    <!-- START - COLUMN GRAPH -->
+    <div class="column-graph">
+      <hr class="esq">
+      <hr class="bot">
+      <div class="column gringo" id="chile"></div>
+      <div class="column gringo" id="uruguai"></div>
+      <div class="column gringo" id="argentina"></div>
+      <div class="column gringo" id="eua"></div>
+      <div class="column nac"></div>
+      <div class="column gringo" id="canada"></div>
+    </div>
+    <!-- END - COLUMN GRAPH -->
 </html>
