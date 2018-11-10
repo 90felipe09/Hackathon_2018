@@ -1,13 +1,12 @@
-body
-{
+body {
   margin: 0;
   padding: 0;
   font-family: Raleway;
   text-decoration: none;
 }
+
 /** Barra de Navegação **/
-nav
-{
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -18,27 +17,21 @@ nav
   padding: 10px 40px;
   transition: 0.7s;
   background-color: #3F5866;
-
   text-decoration: none;
 }
 
-nav div a
-{
+nav div a {
   text-decoration: none;
   color: #F0F0DF;
-
-
 }
 
-nav div a.buscar
-{
+nav div a.buscar {
   text-decoration: none;
   color: #2B3A42;
   padding: 0px 0px;
 }
 
-nav div.logo
-{
+nav div.logo {
   font-size: 24px;
   padding: 15px 20px;
   float: left;
@@ -49,8 +42,7 @@ nav div.logo
   margin: 10px;
 }
 
-nav div.buscar
-{
+nav div.buscar {
   font-size: 20px;
   padding: 20px 20px;
   float: right;
@@ -63,14 +55,94 @@ nav div.buscar
   background-color: #BDD3DE
 }
 
-section.decoy
-{
+section.decoy {
   height: 100px;
 }
 
-section.content
-{
+section.content {
   background-image: linear-gradient(to bottom right, #BDD3DE, #3F5866);
   width: 100%;
   height: 85vh;
+}
+
+fieldset.question {
+  border: 0;
+  padding: 0;
+  margin: 10px 0 0 0;
+  width: 480px;
+  max-width: 100%;
+  font-size: 0;
+  position: relative;
+}
+
+fieldset.question legend {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+fieldset.question label {
+  width: 105px;
+  height: 55px;
+  line-height: 55px;
+  background: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #FFF;
+  background: #888;
+}
+
+fieldset.question label.red {
+  background: tomato;
+}
+
+fieldset.question label.blue {
+  background: #0FB1EC;
+}
+
+fieldset.question label.green {
+  background: #30D355;
+}
+
+fieldset.question label.yellow {
+  background: #EEE618;
+}
+
+fieldset.question input:checked+label {
+  background: #333;
+  color: #fff;
+}
+
+fieldset.question input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+fieldset.question input:focus~label {
+  box-shadow: 0px 0px 6px 0px #008edb;
+  outline: 0 none;
+}
+
+fieldset.question input:focus~.focus {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin: -10px;
+  padding: 10px 10px 0;
+  outline: 0;
+  border: 1px solid #35a3e8;
+  box-shadow: 0 0 10px #35a3e8;
+  z-index: -1;
 }

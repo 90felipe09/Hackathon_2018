@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+
+$size-body:				16px;
+
+$gutter:					20px;
+$gutter-half:			$gutter / 2;
+$gutter-half-minus:	-$gutter-half;
+
+$question-width: 		480px;
+$button-third:			($question-width - $gutter) / 3;
+$input-height:			60px;
+
+$primary-color:		#35a3e8;
+
+* {
+	box-sizing: border-box;
+}	
+
+body { font-family: Lato; font-size: 17px;
+	margin: 40px 40px 0;
+	box-sizing: border-box;
+	font-weight: 400;
+	background: #f1f1f1;
+}
+
+
+fieldset.question {
+	border: 0;
+	padding: 0; margin: 10px 0 0 0;
+	width: $question-width;
+	max-width: 100%;
+	font-size: 0;
+	position: relative;
+	// legend styles
+	legend {
+		font-size: 17px;
+		margin-bottom: 15px;
+	}
+	// label used as button
+	label {
+		width: 105px; height: 55px;
+		line-height: 55px;
+		background: #fff;
+		display: inline-block;
+		text-align: center;
+		font-size: $size-body;
+		font-weight: bold;
+		margin-right: $gutter-half;
+		margin-bottom: $gutter;
+		border-radius: 5px;
+		cursor: pointer;
+		color: #FFF;
+  		background: #888;
+		&.red {
+			background: tomato;
+		}
+		&.blue {
+			background: #0FB1EC;
+		}
+		&.green {
+			background: #30D355;
+		}
+		&.yellow {
+			background: #EEE618;
+		}
+	}
+	// style checked button
+	input:checked + label {
+		background: #333;
+		color: #fff;
+	}
+	// accessible hide inputs
+	input {
+		border: 0;
+		clip: rect(0 0 0 0);
+		height: 1px; margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+	input:focus ~ label {
+		box-shadow: 0px 0px 6px 0px rgba(0,142,219,1);
+		outline: 0 none;
+	}
+	// show fieldset focused
+	input:focus ~ .focus {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		margin: $gutter-half-minus;
+		padding: $gutter-half $gutter-half 0;
+		outline: 0;
+		border: 1px solid #35a3e8;
+		box-shadow: 0 0 10px #35a3e8;
+		z-index:-1;
+	}
+}
