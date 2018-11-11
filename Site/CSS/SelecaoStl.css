@@ -94,16 +94,6 @@ fieldset.question label {
   background: #F0F0DF;
 }
 
-fieldset.info label {
-  width: 200px;
-  height: 55px;
-}
-
-fieldset.ano label {
-  width: 180px;
-  height: 55px;
-}
-
 fieldset.question input:checked+label {
   background: #3F5866;
   color: #F0F0DF;
@@ -153,7 +143,10 @@ fieldset.question input:focus~.focus {
   color: #3F5866;
   background: #F0F0DF;
 }
+<<<<<<< HEAD
+=======
 
 .sombra label:hover{
   box-shadow: 15px 15px 30px rgba(45, 48, 51, 0.7);
 }
+>>>>>>> 6ace9ccf186b9771e9fd93e3343fe2d11d3a3fa9
