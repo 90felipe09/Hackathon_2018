@@ -102,7 +102,7 @@ def verificarMielina():
                 print("\t\tMielina {}: ".format(j.mielina.index(k)) + str(k))
 
 def inicializarTreino():
-    with open("EmpresasICMS.csv") as data:
+    with open("EmpresasICMSnormalizado2.csv") as data:
         dados = csv.reader(data)
         for linha in dados:
             linha = [float(i) for i in linha]
@@ -114,7 +114,7 @@ def inicializarTreino():
 rede = CriadorDeRede.criarRede()
 dataset = []
 respostas = []
-epocas = 1000
+epocas = 2000
 
 
 
