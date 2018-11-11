@@ -91,8 +91,8 @@ section.content {
   height: 120vh;
 }
 
-.titulo {
-  font-size: 56px;
+.titulo{
+  font-size: 5ch;
   line-height: 1.07143;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -124,8 +124,49 @@ div.Grafico {
 }
 
 .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+h2
+{
+  font-size: 3ch;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-top: 1.2em;
+  margin-bottom: 14px;
+  text-align: center;
   display: block;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  position: relative;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  z-index: 3
+}
+
+h3.diferente
+{
+  font-size: 2ch;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-top: 1.2em;
+  margin-bottom: 14px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  z-index: 3
 }
