@@ -68,7 +68,7 @@ section.content {
 fieldset.question {
   border: 0;
   padding: 0;
-  margin: 10px 0 0 0;
+  margin: 0 0 0 0;
   width: 480px;
   max-width: 100%;
   font-size: 0;
@@ -89,33 +89,18 @@ fieldset.question label {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+  margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
   cursor: pointer;
-  color: #FFF;
-  background: #888;
-}
-
-fieldset.question label.red {
-  background: tomato;
-}
-
-fieldset.question label.blue {
-  background: #0FB1EC;
-}
-
-fieldset.question label.green {
-  background: #30D355;
-}
-
-fieldset.question label.yellow {
-  background: #EEE618;
+  color: #3F5866;
+  background: #F0F0DF;
 }
 
 fieldset.question input:checked+label {
-  background: #333;
-  color: #fff;
+  background: #3F5866;
+  color: #F0F0DF;
 }
 
 fieldset.question input {
@@ -130,7 +115,7 @@ fieldset.question input {
 }
 
 fieldset.question input:focus~label {
-  box-shadow: 0px 0px 6px 0px #008edb;
+  box-shadow: 0px 0px 6px 0px #3F5866;
   outline: 0 none;
 }
 

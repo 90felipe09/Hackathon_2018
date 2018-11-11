@@ -1,13 +1,12 @@
-body
-{
+body {
   margin: 0;
   padding: 0;
   font-family: Raleway;
   text-decoration: none;
 }
+
 /** Barra de Navegação **/
-nav
-{
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -18,27 +17,21 @@ nav
   padding: 10px 40px;
   transition: 0.7s;
   background-color: #3F5866;
-
   text-decoration: none;
 }
 
-nav div a
-{
+nav div a {
   text-decoration: none;
   color: #F0F0DF;
-
-
 }
 
-nav div a.buscar
-{
+nav div a.buscar {
   text-decoration: none;
   color: #2B3A42;
   padding: 0px 0px;
 }
 
-nav div.logo
-{
+nav div.logo {
   font-size: 24px;
   padding: 15px 20px;
   float: left;
@@ -49,8 +42,7 @@ nav div.logo
   margin: 10px;
 }
 
-nav div.buscar
-{
+nav div.buscar {
   font-size: 20px;
   padding: 20px 20px;
   float: right;
@@ -63,13 +55,11 @@ nav div.buscar
   background-color: #BDD3DE
 }
 
-section.decoy
-{
+section.decoy {
   height: 100px;
 }
 
-section.content
-{
+section.content {
   background-image: linear-gradient(to bottom right, #BDD3DE, #3F5866);
   width: 100%;
   height: 85vh;
