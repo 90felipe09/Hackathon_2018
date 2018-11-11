@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Share+Tech);
+
 body {
   background: #D8D8D8;
 }
@@ -16,7 +17,7 @@ h1 {
 }
 
 .panel {
-  background: #FFFFFF;
+  background: rgba(#ffffff, 0);
   padding: 10px 15px;
   border-bottom: 2px solid #B5B5B5;
   border-radius: 4px;
