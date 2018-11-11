@@ -138,8 +138,9 @@ h2
   font-weight: 600;
   letter-spacing: -.005em;
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-  margin-top: 1.2em;
+  margin-top: 0px;
   margin-bottom: 14px;
+  padding-top: 1em;
   text-align: center;
   display: block;
   width: 100%;
