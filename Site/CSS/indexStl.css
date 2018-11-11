@@ -181,20 +181,24 @@ div.Grafico
 
 div.linhaBotoes
 {
-  height: 100px;
+  height: 5rem;
   width: 100%;
   float: center;
   transition: 3s;
   padding: 20px 20px;
   display:  inline-block;
+
 }
 
 div.grupo
 {
   float: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-a.botaoestatica
+.botaoestatica
 {
   float: left;
   width: 130px;
@@ -206,8 +210,9 @@ a.botaoestatica
   margin-left: 35%;
   text-decoration: none;
   text-align: center;
+  position: relative;
 }
-a.botaoentenda
+.botaoentenda
 {
   float: left;
   width: 130px;
@@ -218,4 +223,5 @@ a.botaoentenda
   margin: 0px 50px;
   text-decoration: none;
   text-align: center;
+  position: relative;
 }
