@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <link rel="stylesheet" type="text/css" href="CSS/indexStl.css">
+  <link rel="stylesheet" type="text/css" href="CSS/AnaliseStl.css">
+  <link rel="stylesheet" type="text/css" href="CSS/site.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -13,7 +14,9 @@
   <div class="wrapper">
     <!--Barra de Naveção-->
     <nav id="navbar">
-      <div class="logo"><a id="logo" href="index.html">VERIFICA USP</div>
+      <div class="navbar-logo">
+        <img src="img/logo.png" alt="HermesWbe" class="navbar-logo">
+      </div>
       <div class="buscar"> <a class="buscar" href="Selecao.html">CONSULTAR</a> </div>
     </nav>
 
@@ -21,7 +24,32 @@
     <section class="decoy">
     </section>
     <section class="content">
+      <!-- Esses dados estão mockados
+          Cada par conjugado <h1> e <p> dizem respeito
+          a uma Estatística clickada pelo usuário.-->
+      <h1>Arrecadação</h1>
+      <p>  A arrecadação da usp foi de [valor] no ano [ano], o que é [maior ou menor]
+      que a arrecadação média (dados de 2012 a 2018). A arrecadação esperada para
+      o próximo ano, segundo o nosso estimador, seria de [valor].</p>
+      <h1>Gasto</h1>
+      <p>  O gasto [tipo] da [unidade] foi de [valor], o que foi [maior ou menor]
+      do que a arrecadação naquele ano.</p>
+      <p>  A soma dos gastos do tipo fixo é [superior ou inferior] ao recomendado
+      para aquele ano e [' ' ou não] traz riscos ao orçamento da [unidade] para o
+      ano seguinte, segundo o nosso
+      estimador.</p>
+      <h1>Comparação dos Anos</h1>
+      <p>  Naquele ano, a arrecadação da usp foi maior que em [tais anos] e menor em [tais anos]
+        ou
+        Naquele ano, a arrecadação da usp foi a [maior ou menor]
+      </p>
+      <p>  O gasto [tipo] foi mais elevado em [tais anos] e menor em [tais anos]
+        ou
+        O gasto [tipo] foi a [maior ou menor]</p>
 
+      <a class="botaoDenunciar">
+        Denunciar
+      </a>
     </section>
   </div>
 

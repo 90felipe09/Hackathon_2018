@@ -59,8 +59,29 @@ section.decoy {
   height: 100px;
 }
 
-section.content {
-  background-image: linear-gradient(to bottom right, #BDD3DE, #3F5866);
-  width: 100%;
-  height: 85vh;
+p{
+  margin: 0px 200px;
+  text-align: justify;
+}
+
+h1
+{
+  text-align: center;
+}
+
+
+a.botaoDenunciar
+{
+  align-self: center;
+  width: 115px;
+  background-color: #c82626;
+  box-sizing: border-box;
+  color: #F0F0DF;
+  padding: 10px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  margin-left: 31em;
+  margin-top: 50px;
 }
