@@ -4,6 +4,7 @@ body
   padding: 0;
   font-family: Raleway;
   text-decoration: none;
+  background-color: #ffffff;
 }
 /** Barra de Navegação **/
 nav
@@ -198,8 +199,25 @@ div.grupo
   justify-content: center;
 }
 
+div.sobre {
+  background-color: #000000;
+  height: 10em;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .block{
-  
+
 
 
 }
