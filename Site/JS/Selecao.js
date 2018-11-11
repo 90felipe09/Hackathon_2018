@@ -1,16 +1,14 @@
-function getCheckedInstituto() {
+function printarGrafico() {
   $(document).ready(function() {
 
-    $("button").click(function() {
-
-      var checked = [];
-
-      $.each($("input[name='Instituto']:checked"), function() {
-        favorite.push($(this).val());
-      });
-      alert("My favourite sports are: " + favorite.join(", "));
+    var checked = [];
+    $.each($("input[name='Instituto']:checked"), function() {
+      checked.push($(this).val());
     });
+    console.log(checked);
   });
+};
 
-}
-getCheckedInstituto();
+
+var consultar = document.querySelector(".buscar")
+consultar.addEventListener("click", printarGrafico);

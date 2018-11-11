@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" type="text/css" href="CSS/SelecaoStl.css">
-  <link rel="stylesheet" type="text/css" href="CSS/Carousel.css">
+  <link rel="stylesheet" href="css/grafico.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -16,7 +16,7 @@
     <!--Barra de Naveção-->
     <nav id="navbar">
       <div class="logo"><a id="logo" href="index.html">VERIFICA USP</div>
-      <div class="buscar"> <a class="buscar" href="Selecao.html">CONSULTAR</a> </div>
+      <div class="buscar"> <a class="buscar">Pesquisar</a> </div>
     </nav>
 
     <!--Seção do Site-->
@@ -26,18 +26,39 @@
     <section class="content">
       <legend>Institutos:</legend>
       <fieldset class="question">
-        <input type="checkbox" name="checkbox" value="POLI" id="box1"><label for="box1">POLI</label>
-        <input type="checkbox" name="checkbox" value="FFLCH" id="box2"><label for="box2">FFLCH</label>
-        <input type="checkbox" name="checkbox" value="IME 3" id="box3"><label for="box3">IME</label>
-        <input type="checkbox" name="checkbox" value="if" id="box4"><label for="box4">IF</label>
-        <input type="checkbox" name="checkbox" value="if" id="box5"><label for="box5">IF</label>
-        <input type="checkbox" name="checkbox" value="if" id="box6"><label for="box6">IF</label>
-        <input type="checkbox" name="checkbox" value="if" id="box7"><label for="box7">IF</label>
-        <input type="checkbox" name="checkbox" value="if" id="box8"><label for="box8">IF</label>
-        <input type="checkbox" name="checkbox" value="if" id="box9"><label for="box9">IF</label>
-        <input type="checkbox" name="checkbox" value="if" id="box10"><label for="box10">IF</label>
-        <input type="checkbox" name="checkbox" value="if" id="box11"><label for="box11">IF</label>
+        <input type="checkbox" name="Instituto" value="POLI" id="box1"><label for="box1">POLI</label>
+        <input type="checkbox" name="Instituto" value="FFLCH" id="box2"><label for="box2">FFLCH</label>
+        <input type="checkbox" name="Instituto" value="IME 3" id="box3"><label for="box3">IME</label>
+        <input type="checkbox" name="Instituto" value="if" id="box4"><label for="box4">IF</label>
+        <input type="checkbox" name="Instituto" value="if" id="box5"><label for="box5">IF</label>
+        <input type="checkbox" name="Instituto" value="if" id="box6"><label for="box6">IF</label>
+        <input type="checkbox" name="Instituto" value="if" id="box7"><label for="box7">IF</label>
+        <input type="checkbox" name="Instituto" value="if" id="box8"><label for="box8">IF</label>
+        <input type="checkbox" name="Instituto" value="if" id="box9"><label for="box9">IF</label>
+        <input type="checkbox" name="Instituto" value="if" id="box10"><label for="box10">IF</label>
+        <input type="checkbox" name="Instituto" value="if" id="box11"><label for="box11">IF</label>
+        <input type="submit" value="Submit">
       </fieldset>
+
+
+      <div class="container">
+        <div class="panel">
+          <div class="graph">
+            <div class="graph-bd">
+              <div class="graph-bd-md">
+                <svg id="svg"></svg>
+              </div>
+              <div class="graph-bd-text">
+                <ul>
+                  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+                  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/snap.svg-min.js'></script>
+                  <script src="js/graficos.js"></script>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </section>
   </div>
