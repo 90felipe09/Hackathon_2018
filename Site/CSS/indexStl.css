@@ -63,6 +63,65 @@ nav div.buscar
   background-color: #BDD3DE
 }
 
+$key-color: #47cf73;
+body {
+  //paint
+  background-color: $key-color;
+}
+
+[data-chart] {
+  position: relative;
+  margin: 1rem;
+}
+
+[data-graph] {
+  height: 100px;
+  display: flex;
+  padding: 1rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-end;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  //paint
+  border-color: white;
+  background-color: darken($key-color, 8%);
+  border-radius: 0 .25rem;
+  box-shadow: 0 .25rem 0 0px rgba(0, 0, 0, .1);
+}
+
+.graph-bar {
+  flex: 0 1 5rem;
+  height: 0%;
+  //paint
+  background-color: white;
+  border-radius: .25rem;
+  + .graph-bar {
+    margin-left: 1rem;
+  }
+
+}
+
+[data-label] {
+  position: absolute;
+  //paint
+  color: darken($key-color, 40%);
+}
+
+[data-label~="x"] {
+  top: calc(100% + .5rem);
+  width: 100%;
+  text-align: center;
+}
+
+[data-label~="y"] {
+  display: block;
+  text-align: center;
+  left: 0;
+  top: 0;
+  height: 100%;
+  writing-mode: vertical-lr;
+}
 
 section.decoy
 {
@@ -112,12 +171,13 @@ h2.diferente
 
 div.Grafico
 {
-  height: 130px;
-  width: 130px;
+  height: 150px;
+  width: 25%;
   float: center;
   transition: 1.5s;
   align-self: center;
   padding: 20px 20px;
+  margin-left: 30em;
 }
 
 div.linhaBotoes
