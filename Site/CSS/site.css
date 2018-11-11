@@ -179,3 +179,32 @@ h3.diferente {
   flex-shrink: 1;
   z-index: 3
 }
+
+
+nav div.buscar_nav {
+  position: relative;
+  font-size: 1em;
+  padding: 1em 1em;
+  float: right;
+  height: 2em;
+  width: 10em;
+  margin: 1em;
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+  transition: 0.5s;
+  background-color: #b8dfed;
+  border-radius: 7px 7px;
+  box-shadow: 15px 15px 30px rgba(45, 48, 51, 0.7);
+}
+
+nav div a.buscar_nav {
+  text-decoration: none;
+  color: #2B3A42;
+  padding: 0px 0px;
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
