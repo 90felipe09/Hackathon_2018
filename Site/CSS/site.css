@@ -161,7 +161,11 @@ h2
   z-index: 3
 }
 
-h3.diferente
+.color{
+  color: #ffffff;
+}
+
+.diferente
 {
   font-size: 2ch;
   line-height: 1.07143;
