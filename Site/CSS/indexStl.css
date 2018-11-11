@@ -198,6 +198,11 @@ div.grupo
   justify-content: center;
 }
 
+.block{
+  
+
+
+}
 .botaoestatica
 {
   float: left;
@@ -210,7 +215,6 @@ div.grupo
   margin-left: 35%;
   text-decoration: none;
   text-align: center;
-  position: relative;
 }
 .botaoentenda
 {
@@ -223,5 +227,4 @@ div.grupo
   margin: 0px 50px;
   text-decoration: none;
   text-align: center;
-  position: relative;
 }
