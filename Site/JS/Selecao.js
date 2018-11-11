@@ -50,7 +50,7 @@ function printarGrafico() {
       institutoLi.textContent = names[checked[i]] + ": R$ " + valueAtual;
 
       institutoLi.classList.add("js-graphItem");
-      institutoLi.setAttribute("data-val", 100 * (valueAtual / total));
+      institutoLi.setAttribute("data-val", (100 * (valueAtual / total)) - 0.01);
       institutoLi.setAttribute("data-color", colors[i]);
       grafico.appendChild(institutoLi);
 
