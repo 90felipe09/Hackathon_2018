@@ -2,9 +2,9 @@
 Repositório para o desenvolvimento do algoritmo
 
 ## To-do Algoritmo:
-- [ ] Montar Modelo
-- [ ] Treinar Modelo
-- [ ] Testar Modelo
-- [ ] Vincular Resultado no Site
+- [X] Montar Modelo
+- [X] Treinar Modelo
+- [X] Testar Modelo
+- [X] Vincular Resultado no Site
 
 ## Informações úteis.
