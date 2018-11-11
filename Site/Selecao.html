@@ -15,9 +15,14 @@
 <body>
   <div class="wrapper">
     <!--Barra de Naveção-->
-    <nav id="navbar">
-      <div class="logo"><a id="logo" href="index.html">VERIFICA USP</div>
-      <div class="buscar"> <a class="buscar">Pesquisar</a> </div>
+
+    <nav id="navbar navbar-light bg-light fixed-top navbar-expand-sm">
+      <div class="navbar-logo">
+        <img src="img/logo.png" alt="HermesWbe" class="navbar-logo">
+      </div>
+      <div class="buscar">
+        <a class="buscar buscar-texto"><strong>Pesquisar</strong></a>
+      </div>
     </nav>
 
     <!--Seção do Site-->
@@ -25,7 +30,7 @@
     </section>
 
     <section class="content">
-      <legend>Unidades:</legend>
+      <h2>Unidades:</h2>
       <fieldset class="question" id="unidades">
         <input type="checkbox" name="Instituto" value="FMRP" id="box1"><label for="box1">FMRP</label>
         <input type="checkbox" name="Instituto" value="POLI" id="box2"><label for="box2">POLI</label>
@@ -40,16 +45,16 @@
         <input type="checkbox" name="Instituto" value="ICB" id="box11"><label for="box11">ICB</label>
         <input type="submit" value="Submit">
       </fieldset>
-      <legend>Informações:</legend>
+      <h2>Informações:</h2>
       <fieldset class="question" id="Informações">
-        <input type="radio" name="Informações" value="Gasto Total" id="info1"><label for="info2">Gasto Total</label>
-        <input type="radio" name="Informações" value="Manutenção" id="info2"><label for="info3">Manutenção</label>
-        <input type="radio" name="Informações" value="Serviços" id="info3"><label for="info4">Serviços</label>
-        <input type="radio" name="Informações" value="Auxilio" id="info4"><label for="info5">Auxilio</label>
-        <input type="radio" name="Informações" value="Recursos" id="info5"><label for="info6">Recursos</label>
-        <input type="radio" name="Informações" value="Outros" id="info6"><label for="info7">Outros</label>
+        <input type="radio" name="Informações" value="Gasto Total" id="info1"><label for="info1">Gasto Total</label>
+        <input type="radio" name="Informações" value="Manutenção" id="info2"><label for="info2">Manutenção</label>
+        <input type="radio" name="Informações" value="Serviços" id="info3"><label for="info3">Serviços</label>
+        <input type="radio" name="Informações" value="Auxilio" id="info4"><label for="info4">Auxilio</label>
+        <input type="radio" name="Informações" value="Recursos" id="info5"><label for="info5">Recursos</label>
+        <input type="radio" name="Informações" value="Outros" id="info6"><label for="info6">Outros</label>
       </fieldset>
-      <legend>Ano:</legend>
+      <h2>Ano:</h2>
       <fieldset class="question" id="Ano">
         <input type="radio" name="Ano" value="2012" id="ano1"><label for="ano1">2012</label>
         <input type="radio" name="Ano" value="2013" id="ano2"><label for="ano2">2013</label>
