@@ -28,12 +28,39 @@ function printarGrafico() {
         .fail(function(jqxhr, settings, exception) {
           $("div.log").text("Triggered ajaxError handler.");
         });
+      $("html, body").animate({
+        scrollTop: document.body.scrollHeight
+      }, "slow");
+      content = document.querySelector(".content");
+
+      /* Seção do Entenda Mais*/
+
+      /*
+
+      tituloGastos = document.createElement("h");
+      tituloGastos.textContent = "Gastos";
+      tituloArrecadacao = document.createElement("h");
+      tituloArrecadacao.textContent = "Arrecadação";
+      tituloAnos = document.createElement("h");
+      tituloAnos.textContent = "Arrecadação";
+      pArrecadacao = documento.createElement("p");
+      pGastos = documento.createElement("p");
+      pAnos = documento.createElement("p");
+      frase = ""
+      */
+
+
+
+
+
+
+
     };
   });
 };
 
 
-var consultar = document.querySelector(".buscar")
+var consultar = document.querySelector(".buscar");
 consultar.addEventListener("click", printarGrafico);
 console.log(poli.orcamentos[0].gastoTotal);
 console.log(fflch.orcamentos[0].gastoTotal);
