@@ -4,8 +4,8 @@ Repositório para o projeto do Hackathon do USP Codelab 2018.2 para contribuir c
 ## To-do:
 - [X] Configurar GitHub
 - [ ] Site
-- [ ] Algoritmo
-- [ ] Dados
+- [X] Algoritmo
+- [X] Dados
 
 ## De quem puxar a orelha?
 <p> Esses são os colaboradores do projeto e suas respectivas funções: </p>
