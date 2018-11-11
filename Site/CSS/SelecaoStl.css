@@ -94,16 +94,6 @@ fieldset.question label {
   background: #F0F0DF;
 }
 
-fieldset.info label {
-  width: 200px;
-  height: 55px;
-}
-
-fieldset.ano label {
-  width: 180px;
-  height: 55px;
-}
-
 fieldset.question input:checked+label {
   background: #3F5866;
   color: #F0F0DF;
