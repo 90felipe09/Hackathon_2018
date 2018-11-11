@@ -69,29 +69,42 @@ h1
   text-align: center;
 }
 
+.denuncia{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 a.botaoDenunciar
 {
-  align-self: center;
-  width: 115px;
+
+  width: 10em;
+  height: 4em;
   background-color: #c82626;
   box-sizing: border-box;
   color: #F0F0DF;
   padding: 10px 10px;
-  font-size: 20px;
-  text-decoration: none;
-  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 5em;
   display: flex;
-  margin-left: 31em;
-  margin-top: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px 7px;
+  box-shadow: 15px 15px 30px rgba(45, 48, 51, 0.7);
+
 }
+
 
 .analise-color{
   color: #3F5866;
+
 }
 
 .tamanho{
   position: relative;
-  padding: 10em;
-  padding-top: 2em;
+  padding: 5em;
+  padding-top: 1em;
 }

@@ -187,7 +187,7 @@ div.grupo {
 
 div.sobre {
   background-color: #000000;
-  padding-bottom: 10em;
+  padding-bottom: 2em;
   width: 100%;
   margin: 0;
   margin-top: 5em;
@@ -290,4 +290,8 @@ div.text{
   letter-spacing: +.005em;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   left: 60px;
+}
+
+h1.titulo{
+  padding-top: 0.5em;
 }
