@@ -28,7 +28,6 @@ function printarGrafico() {
           $("div.log").text("Triggered ajaxError handler.");
         });
     };
-    console.log(checked);
   });
 };
 
