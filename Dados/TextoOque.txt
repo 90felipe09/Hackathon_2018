@@ -1,0 +1,3 @@
+O que é o Hermes Web
+O Hermes Web é um portal para empoderá-lo na fiscalização da saúde orçamentária da USP. Desejamos que isto se torne uma ferramenta útil seja para o estudante e, quem sabe, para o gestor financeiro de cada instituição.
+Aqui buscamos dar um passo em direção à conquista da transparência das informações
