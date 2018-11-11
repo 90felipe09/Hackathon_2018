@@ -146,7 +146,7 @@ fieldset.question input:focus~.focus {
 <<<<<<< HEAD
 =======
 
-.sombra{
+.sombra label:hover{
   box-shadow: 15px 15px 30px rgba(45, 48, 51, 0.7);
 }
 >>>>>>> 6ace9ccf186b9771e9fd93e3343fe2d11d3a3fa9

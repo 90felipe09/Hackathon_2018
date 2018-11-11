@@ -46,6 +46,9 @@ function printarGrafico() {
       arr.push(";");
       console.log(arr.join(""));
       eval(arr.join(""));
+
+      institutoLi.textContent = names[checked[i]] + ": R$ " + valueAtual;
+
       institutoLi.classList.add("js-graphItem");
       institutoLi.setAttribute("data-val", 100 * (valueAtual / total));
       institutoLi.setAttribute("data-color", colors[i]);
@@ -62,6 +65,7 @@ function printarGrafico() {
         scrollTop: document.body.scrollHeight
       }, "slow");
       content = document.querySelector(".content");
+
 
       /* Seção do Entenda Mais*/
 
