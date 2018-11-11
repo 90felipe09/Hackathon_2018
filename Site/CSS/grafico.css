@@ -11,7 +11,8 @@ h1 {
 
 .container {
   max-width: 600px;
-  margin: 50px auto;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Share Tech', sans-serif;
   color: #444;
 }
@@ -19,7 +20,6 @@ h1 {
 .panel {
   background: rgba(#ffffff, 0);
   padding: 10px 15px;
-  border-bottom: 2px solid #B5B5B5;
   border-radius: 4px;
   box-sizing: border-box;
 }
