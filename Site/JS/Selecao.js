@@ -1,10 +1,12 @@
 function printarGrafico() {
   $(document).ready(function() {
     var checked = [];
+    var filtro = [];
     var colors = ["#8C5091", "#F8AFFF", "#719155", "#98DE62", "#3F5866", "#81b6d4", "#FFC882", "#e2953c", "#eceb7d", "#8C5091", "#F8AFFF"];
     $.each($("input[name='Instituto']:checked"), function() {
       checked.push($(this).val());
     });
+    var filtro = $("input[name='Informações']:checked").val().toLowerCase();
     svg = document.querySelector("#svg");
     grafico = document.querySelector("#graphList");
     while (grafico.firstChild) {
@@ -16,8 +18,9 @@ function printarGrafico() {
     for (var i = 0; i < checked.length; i++) {
       var institutoLi = document.createElement("li");
       institutoLi.textContent = checked[i];
+      console.log(institutos[i]);
       institutoLi.classList.add("js-graphItem");
-      institutoLi.setAttribute("data-val", (i + 1) * 10);
+      institutoLi.setAttribute("data-val", 10);
       institutoLi.setAttribute("data-color", colors[i]);
       grafico.appendChild(institutoLi);
 
@@ -50,18 +53,11 @@ function printarGrafico() {
       */
 
 
-
-
-
-
-
     };
   });
 };
-
+string = "institutos[0].orcamentos[0].gastoTotal"
+var myObject = window[string];
 
 var consultar = document.querySelector(".buscar");
 consultar.addEventListener("click", printarGrafico);
-console.log(poli.orcamentos[0].gastoTotal);
-console.log(fflch.orcamentos[0].gastoTotal);
-console.log(poli.orcamentos[0].gastoTotal);
