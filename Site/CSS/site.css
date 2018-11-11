@@ -1,3 +1,12 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
 .fixed-top {
   position: fixed;
   top: 0;
@@ -150,7 +159,16 @@ h2 {
   z-index: 3
 }
 
+<<<<<<< HEAD
 h3.diferente {
+=======
+.color{
+  color: #ffffff;
+}
+
+.diferente
+{
+>>>>>>> d5312bf9d5bfd90d14d60556db131ada72bc707a
   font-size: 2ch;
   line-height: 1.07143;
   font-weight: 600;
