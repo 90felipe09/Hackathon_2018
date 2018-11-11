@@ -5,6 +5,7 @@ body {
   text-decoration: none;
   background-color: #ffffff;
   height: 100%;
+  width: 100%;
 }
 
 /** Barra de Navegação **/
@@ -186,9 +187,14 @@ div.grupo {
 
 div.sobre {
   background-color: #000000;
-  margin-top: 5em;
-  height: 38em;
+  padding-bottom: 10em;
   width: 100%;
+  margin: 0;
+  margin-top: 5em;
+  top: 0;
+  left: 0;
+  box-shadow: 10 0 1em #000;
+
 }
 
 .color {
@@ -196,7 +202,7 @@ div.sobre {
 }
 
 h2.color {
-  font-size: 4ch;
+  font-size: 4em;
 }
 
 .sobre_img {
@@ -218,10 +224,14 @@ h2.color {
 
 .legenda-receita {
   color: green;
+  margin-bottom: 1.2em;
+  margin-left: 0.2em;
 }
 
 .legenda-gasto {
   color: red;
+  margin-bottom: 1em;
+  margin-left: 0.2em;
 }
 
 .block {}
@@ -249,4 +259,33 @@ h2.color {
   margin: 0px 50px;
   text-decoration: none;
   text-align: center;
+}
+
+.text_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+}
+
+div.text{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.legenda{
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }

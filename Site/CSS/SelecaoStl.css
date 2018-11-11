@@ -143,3 +143,10 @@ fieldset.question input:focus~.focus {
   color: #3F5866;
   background: #F0F0DF;
 }
+<<<<<<< HEAD
+=======
+
+.sombra{
+  box-shadow: 15px 15px 30px rgba(45, 48, 51, 0.7);
+}
+>>>>>>> 6ace9ccf186b9771e9fd93e3343fe2d11d3a3fa9
