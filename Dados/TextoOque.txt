@@ -1,0 +1,30 @@
+O que é o Hermes Web
+O Hermes Web é um portal para empoderá-lo na fiscalização da saúde orçamentária
+ da USP. Desejamos que isto se torne uma ferramenta útil seja para o estudante
+  e, quem sabe, para o gestor financeiro de cada instituição.
+
+Nós estávamos preocupados com a distância que ainda existia entre o cidadão
+e as informações que os dados disponibilizados no portal da Transparência
+tentavam informar. Afinal, dados só se tornam informação quando são interpretados.
+Informações só se tornam conhecimento quando são compreendidas. Tornar os
+dados transparentes por deixá-los transparentes pode até ser um passo em direção
+aos efeitos benéficos de engajar a população em sua análise. No entanto, Não é
+o suficiente.
+
+O que este portal pode fazer nesta empreitada é justamente ajudar na interpretação
+desta miríade de dados disponíveis, transformar em conhecimento a partir de uma
+análise e conferir Direção e Sentido à este conhecimento ao materializá-lo em ação.
+Nas consultas que o usuário aqui fizer, caso verifique alguma incongruência ou
+evidência de insustentabilidade financeira, poderá gerar um dossiê para embasar
+a denúncia e receberá instruções quanto a como proceder com essa denúncia.
+
+Além disso, contamos com um estimador de arrecadação de ICMS para os anos seguintes.
+Esta inferência é baseada na série histórica de arrecadação do ICMS do estado
+pareado com variáveis políticas como o Partido e o Político no Governo do Estado
+e também pareado com valores de saúde financeira e operacionais de cada empresa
+que é a maior contribuinte por setor econômico do ICMS. Desta forma, pode-se Obter
+uma estimativa lastreada na estabilidade das empresas, que legam as condições
+de operação delas pro futuro. Dessa forma, se a USP estiver se comprometendo
+com gastos que superam a arrecadação esperada para o estado no ano seguinte,
+saberemos que ela passará por dificuldades. Poderemos, então, tentar previnir as
+ demissões e cortes de gastos de 2017.
