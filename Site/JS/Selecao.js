@@ -5,8 +5,8 @@ function printarGrafico() {
     $.each($("input[name='Instituto']:checked"), function() {
       checked.push($(this).val());
     });
-    var filtro = $("input[name='Informações']:checked").val().toLowerCase();
-    var ano = $("input[name='Ano']:checked").val().toLowerCase();
+    var filtro = $("input[name='Informações']:checked").val();
+    var ano = $("input[name='Ano']:checked").val();
     svg = document.querySelector("#svg");
     grafico = document.querySelector("#graphList");
     while (grafico.firstChild) {
