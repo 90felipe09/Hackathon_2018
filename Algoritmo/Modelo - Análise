@@ -8,14 +8,4 @@ GASTO
 do que a arrecadação naquele ano.
   A soma dos gastos do tipo fixo é [superior ou inferior] ao recomendado
 para aquele ano e [' ' ou não] traz riscos ao orçamento da [unidade] para o
-ano seguinte, segundo o nosso
-estimador.
-
-COMPARA ANO
-  Naquele ano, a arrecadação da usp foi maior que em [tais anos] e menor em [tais anos]
-  ou
-  Naquele ano, a arrecadação da usp foi a [maior ou menor]
-
-  O gasto [tipo] foi mais elevado em [tais anos] e menor em [tais anos]
-  ou
-  O gasto [tipo] foi a [maior ou menor]
+ano seguinte, segundo o nosso estimador.
