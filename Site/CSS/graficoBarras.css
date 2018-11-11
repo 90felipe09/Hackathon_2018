@@ -1,6 +1,8 @@
 
 .charts-container {
   position: relative;
+  left: 40px;
+
 }
 
 .charts-container .bar-chart--label {
@@ -53,12 +55,14 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+
 }
 
 #chartVertical .bar-chart--track {
   height: 300px;
   margin-right: 40px;
   float: left;
+  box-shadow: 15px 15px 30px rgba(45, 48, 51, 0.7);
 }
 
 @-moz-keyframes progressScale-horizontal {
