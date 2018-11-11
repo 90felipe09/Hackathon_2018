@@ -85,3 +85,13 @@ a.botaoDenunciar
   margin-left: 31em;
   margin-top: 50px;
 }
+
+.analise-color{
+  color: #3F5866;
+}
+
+.tamanho{
+  position: relative;
+  padding: 10em;
+  padding-top: 5em;
+}
