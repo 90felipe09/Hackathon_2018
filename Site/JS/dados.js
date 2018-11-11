@@ -28,15 +28,3 @@ orcamentos = [
 ];
 
 const poli = new Instituto("Escola Politécnica", "Poli", orcamentos);
-
-orcamentos = [
-  new orcamentoAnual(20, 20, 30, 40, 50, 60, 70),
-  new orcamentoAnual(10, 20, 30, 40, 50, 60, 70),
-  new orcamentoAnual(10, 20, 30, 40, 50, 60, 70),
-  new orcamentoAnual(10, 20, 30, 40, 50, 60, 70),
-  new orcamentoAnual(10, 20, 30, 40, 50, 60, 70),
-  new orcamentoAnual(10, 20, 30, 40, 50, 60, 70),
-  new orcamentoAnual(10, 20, 30, 40, 50, 60, 70)
-];
-
-const fflch = new Instituto("Escola fflch", "fflch", orcamentos);

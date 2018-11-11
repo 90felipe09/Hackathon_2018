@@ -1,0 +1,102 @@
+body {
+  background-color: #999;
+  font-family: "Arial", san-serif;
+}
+
+.charts-container {
+  position: relative;
+}
+
+.charts-container .bar-chart--label {
+  float: left;
+  width: 50px;
+  padding-bottom: 6px;
+}
+
+.charts-container .bar-chart-vertical {
+  position: relative;
+}
+
+.charts-container .bar-chart-vertical .bar-chart--track {
+  width: 70px;
+  position: relative;
+}
+
+.charts-container .bar-chart-vertical .bar-chart--progress {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  width: 70px;
+  -moz-animation: progressScale-vertical 1600ms 1 forwards;
+  -webkit-animation: progressScale-vertical 1600ms 1 forwards;
+  animation: progressScale-vertical 1600ms 1 forwards;
+}
+
+.gastos-track {
+  background-color: rgb(129, 71, 71);
+}
+
+.lucro-track {
+  background-color: rgb(44, 99, 64);
+}
+
+.gastos-progress {
+  background-color: rgb(156, 37, 37);
+}
+
+.lucro-progress {
+  background-color: rgb(79, 166, 85);
+}
+
+#chartVertical {
+  height: 300px;
+  width: 100%;
+  background-color: rgba(#939393, 0);
+  padding-left: 40px;
+  border-bottom: 1px solid white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#chartVertical .bar-chart--track {
+  height: 300px;
+  margin-right: 40px;
+  float: left;
+}
+
+@-moz-keyframes progressScale-horizontal {
+  0% {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes progressScale-horizontal {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes progressScale-horizontal {
+  0% {
+    width: 0;
+  }
+}
+
+@-moz-keyframes progressScale-vertical {
+  0% {
+    height: 0;
+  }
+}
+
+@-webkit-keyframes progressScale-vertical {
+  0% {
+    height: 0;
+  }
+}
+
+@keyframes progressScale-vertical {
+  0% {
+    height: 0;
+  }
+}
