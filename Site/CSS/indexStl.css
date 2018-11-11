@@ -216,19 +216,22 @@ h2.color{
 }
 
 .sobre_img{
-  display: inline-block;
-  position: relative;
+  display: inline;
+  position: absolute;
   height: 25em;
   width: auto;
-  padding-top: 5px;
-  padding-top: .3125rem;
+  float: left;
+
   padding-bottom: 5px;
   padding-bottom: .3125rem;
   margin-right: 16px;
   margin-right: 1rem;
-
   left: 5em;
 
+}
+
+.sobre img {
+   height: 100%;
 }
 
 

@@ -1,4 +1,4 @@
-['Suprimentos de Inform�tica',
+﻿['Suprimentos de Inform�tica',
         0
         'Servi�os Limpeza, Vigil�ncia e Outros - PJ',
         1
